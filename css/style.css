@@ -1,0 +1,27 @@
+.header-text{
+  max-width: 700px;
+}
+.box{
+  border: 3px solid red;
+  min-height: 100px;
+}
+.free-title{
+  position: relative;
+}
+.free-title::after{
+  content: url(../images/underline.png);
+  width: 100px;
+  position: absolute;
+  left: 0;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+.free .row p{
+  max-width: 210px;
+}
+.bonus-text p{
+  max-width: 255px;
+}
+.skidka-text p{
+  max-width: 470px;
+}
